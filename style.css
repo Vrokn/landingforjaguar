@@ -1,0 +1,53 @@
+body {
+    background-image: url("https://s3.amazonaws.com/makeitreal/cars/jaguar-xe.jpg");
+    background-color: rgb(43, 10, 10);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-shadow: 3px 3px 5px #000000;
+    transition: background-image 2s;
+}
+
+div {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    margin: auto;
+    max-width: 600px;
+    min-width: 120px;
+    color: white;
+    border-radius: 8px;
+}
+
+p {
+    padding: 10px 0px;
+}
+
+@media (max-width: 575.98px) {
+    body {
+        padding: 40px;
+        font-size: 15px;
+        text-shadow: 2px 2px 4px #000000;
+    }
+}
+
+a:link, a:visited {
+    background-color: #DB3030;
+    border: 2px solid #ac272775;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: default
+}
+
+a:hover, a:active {
+    background-color: rgba(224, 24, 24, 0.863);
+    cursor: default
+}
